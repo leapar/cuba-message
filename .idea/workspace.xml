@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dcc94c4-38c4-4e04-9550-384ec9757e29" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/app_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/cd_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/dbfirst_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/dbupdates_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/ed_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/enumd_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/exception_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/history_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/listener_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/main_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/md_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/msg_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/pm_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/polymer_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/sd_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/serviced_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/settings_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/template_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/tl_messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res-en/util_messages.properties" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cuba-message.iml" afterPath="$PROJECT_DIR$/cuba-message.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res-ch/exception_messages.properties" afterPath="$PROJECT_DIR$/res-ch/exception_messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
-    </list>
+    <list default="true" id="2dcc94c4-38c4-4e04-9550-384ec9757e29" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,7 +52,7 @@
         <entry file="jar://D:/Program Files (x86)/CUBA Studio 6.7/lib/studio-backend-6.7.7.jar!/com/haulmont/studio/backend/j/a.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="263" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
+              <caret line="263" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,7 +62,7 @@
         <entry file="jar://D:/Program Files (x86)/CUBA Studio 6.7/lib/studio-ui-6.7.7.jar!/com/haulmont/studio/ui/h/b.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-43">
-              <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+              <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -107,7 +82,7 @@
         <entry file="jar://D:/Program Files (x86)/CUBA Studio 6.7/lib/studio-backend-6.7.7.jar!/com/haulmont/studio/backend/j/b.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -164,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="461" />
     <option name="y" value="47" />
     <option name="width" value="1658" />
@@ -300,7 +275,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="461" y="47" width="1658" height="1100" extended-state="1" />
+    <frame x="461" y="47" width="1658" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -701,7 +676,7 @@
     <entry file="jar://D:/Program Files (x86)/CUBA Studio 6.7/lib/studio-backend-6.7.7.jar!/com/haulmont/studio/backend/j/b.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -709,7 +684,7 @@
     <entry file="jar://D:/Program Files (x86)/CUBA Studio 6.7/lib/studio-backend-6.7.7.jar!/com/haulmont/studio/backend/j/a.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="263" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
+          <caret line="263" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="354" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -725,7 +700,7 @@
     <entry file="jar://D:/Program Files (x86)/CUBA Studio 6.7/lib/studio-ui-6.7.7.jar!/com/haulmont/studio/ui/h/b.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-43">
-          <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
           <folding />
         </state>
       </provider>
