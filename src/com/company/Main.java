@@ -45,7 +45,7 @@ public class Main {
 
 
 
-        Message.dealAllMessage("d:\\studio\\messages\\enc\\",false);
+        Message.dealAllMessage("d:\\studio\\message6.7.7\\",true);
 
 
     }
