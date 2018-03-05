@@ -44,9 +44,9 @@ public class Main {
 */
 
 
-
-        Message.dealAllMessage("d:\\studio\\message6.7.7\\",true);
-
+        Message.dealAllMessage("d:\\studio\\message2\\",false);
+        //Message.dealAllMessage("d:\\studio\\message6.8.2\\",true);
+        //Message.sortAllMessage("d:\\studio\\\\message2\\");
 
     }
 }
