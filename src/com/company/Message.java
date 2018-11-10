@@ -1,14 +1,14 @@
 package com.company;
 
+import com.haulmont.studio.common.Messages;
+
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.SecretKeySpec;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
+import java.io.*;
+import java.nio.charset.Charset;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.util.*;
@@ -46,6 +46,9 @@ public class Message {
             var14.init(Cipher.DECRYPT_MODE, secretKeySpec);
 
             byte[] var15 = org.apache.commons.codec.binary.Base64.decodeBase64(msg);
+            if(var15 == null) {
+                return "";
+            }
             byte[] var16 = var14.doFinal(var15);
             //System.out.println(new String(var16, "UTF-8"));//ToolsPanel.cloudDeploy
             return new String(var16, "UTF-8");
@@ -102,7 +105,7 @@ public class Message {
             java.util.ResourceBundle resourceBundle = null;
             try {
                 resourceBundle = java.util.ResourceBundle.getBundle(file);
-            }catch (Exception e) {
+            } catch (Exception e) {
 
             }
 
@@ -142,7 +145,7 @@ public class Message {
                 } catch (UnsupportedEncodingException e) {
                     e.printStackTrace();
                 }
-                System.out.println(key+" = "+msg);
+                System.out.println(key + " = " + msg);
                 // 向文件写入内容
                 try {
                     writer.write(key + "=" + msg + "\n");
@@ -158,6 +161,47 @@ public class Message {
                 e.printStackTrace();
             }
         }
+    }
+
+    public static String getMessage(String fileName,String key) {
+        boolean var2 = "true".equals(System.getProperty("runFromIde"));
+        HashMap var3 = new HashMap();
+
+
+        String var6 = "/com/haulmont/studio/common/messages/" + fileName+ ".properties";
+        InputStream var7 = Messages.class.getResourceAsStream(var6);
+        if (var7 == null) {
+            throw new RuntimeException("Resource '" + var6 + "' not found");
+        }
+        BufferedReader var8 = new BufferedReader(new InputStreamReader(var7, Charset.forName("UTF-8")));
+        Throwable var9 = null;
+
+
+        Properties var10 = new Properties();
+        try {
+            var10.load(var8);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        String var12 = key;
+        String var13;
+
+
+       // for (Iterator var11 = var10.stringPropertyNames().iterator(); var11.hasNext(); var3.put(var12, var13)) {
+       //     var12 = (String) var11.next();
+
+
+            var13 = var10.getProperty(var12);
+            if (!var2) {
+
+                String msg = decMessage(var13);
+                return msg;
+              //  System.console().writer().print(msg);
+            }
+    //    }
+
+    return "";
     }
 
     public static void dealAllMessage(String dir, boolean isDec) {
@@ -188,13 +232,14 @@ public class Message {
             for (String key :
                     keys) {
 
-           /* }
-            while (keys.hasMoreElements()){
-                String key = keys.nextElement();*/
                 String msg = "";
                 if (isDec) {
+                    //msg = getMessage(file,key);
                     msg = decMessage(resourceBundle.getString(key));
                     msg = msg.replace("\n", "");
+
+
+
                 } else {
                     try {
                         msg = resourceBundle.getString(key);
